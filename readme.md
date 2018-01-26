@@ -20,10 +20,10 @@ sudo virtualhost help
 sudo virtualhost [create | delete] help
 sudo virtualhost [ACTION] HOSTNAME [--OPTIONS]
 ```
-Actions available:
+> Actions available:
 * create
 * delete
-Options available:
+> Options available: 
 * --path - path to hosts folder. default is /var/www
 * --root - document root folder. default is HOSTNAME's folder
 * --install - installing scripts. now, only laravel installation is availabe
